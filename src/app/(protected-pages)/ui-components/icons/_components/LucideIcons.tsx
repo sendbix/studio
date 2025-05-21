@@ -2,25 +2,25 @@ import IconWrapper from './IconWrapper'
 import {
     LuAccessibility,
     LuActivity,
-    LuSquareActivity,
+    LuActivitySquare,
     LuAirVent,
     LuAirplay,
-    LuAlarmClockCheck,
+    LuAlarmCheck,
     LuAlarmClock,
     LuAlarmClockOff,
-    LuAlarmClockMinus,
+    LuAlarmMinus,
 } from 'react-icons/lu'
 
 const renderIcon = [
     { render: () => <LuAccessibility /> },
     { render: () => <LuActivity /> },
-    { render: () => <LuSquareActivity /> },
+    { render: () => <LuActivitySquare /> },
     { render: () => <LuAirVent /> },
     { render: () => <LuAirplay /> },
-    { render: () => <LuAlarmClockCheck /> },
+    { render: () => <LuAlarmCheck /> },
     { render: () => <LuAlarmClock /> },
     { render: () => <LuAlarmClockOff /> },
-    { render: () => <LuAlarmClockMinus /> },
+    { render: () => <LuAlarmMinus /> },
 ]
 
 const LucideIcons = () => {
