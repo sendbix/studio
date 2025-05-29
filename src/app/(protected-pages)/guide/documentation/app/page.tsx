@@ -17,20 +17,20 @@ const Page = () => {
             <span>
                 <i>Demo Configuration</i>
             </span>
-            <CodeToggleTabs 
-                        languages={['ts', 'js']}
-                        tsMarkdown={`\`\`\`tsx
+            <CodeToggleTabs
+                languages={['ts', 'js']}
+                tsMarkdown={`\`\`\`tsx
 const appConfig: AppConfig = {
     apiPrefix: '/api',
-    authenticatedEntryPath: '/dashboards/ecommerce',
+    authenticatedEntryPath: '/dashboards/marketing',
     unAuthenticatedEntryPath: '/sign-in',
     locale: 'en',
     activeNavTranslation: true
 }`}
-                        jsMarkdown={`\`\`\`jsx
+                jsMarkdown={`\`\`\`jsx
 const appConfig = {
     apiPrefix: '/api',
-    authenticatedEntryPath: '/dashboards/ecommerce',
+    authenticatedEntryPath: '/dashboards/marketing',
     unAuthenticatedEntryPath: '/sign-in',
     locale: 'en',
     activeNavTranslation: true
@@ -39,7 +39,7 @@ const appConfig = {
             <span>
                 <i>Starter Configuration</i>
             </span>
-            <CodeToggleTabs 
+            <CodeToggleTabs
                 languages={['ts', 'js']}
                 tsMarkdown={`\`\`\`tsx
 const appConfig: AppConfig = {
@@ -49,7 +49,7 @@ const appConfig: AppConfig = {
     locale: 'en',
     activeNavTranslation: false
 }`}
-                        jsMarkdown={`\`\`\`jsx
+                jsMarkdown={`\`\`\`jsx
 const appConfig = {
     apiPrefix: '/api',
     authenticatedEntryPath: '/home',

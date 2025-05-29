@@ -9,17 +9,17 @@ export type ThemeVariables = Record<'light' | 'dark', Record<Variables, string>>
 
 const defaultTheme: ThemeVariables = {
     light: {
-        primary: '#2a85ff',
-        primaryDeep: '#0069f6',
-        primaryMild: '#4996ff',
-        primarySubtle: '#2a85ff1a',
+        primary: '#fb732c',
+        primaryDeep: '#cc5c24',
+        primaryMild: '#fc8f56',
+        primarySubtle: '#fb732c1a',
         neutral: '#ffffff',
     },
     dark: {
-        primary: '#2a85ff',
-        primaryDeep: '#0069f6',
-        primaryMild: '#4996ff',
-        primarySubtle: '#2a85ff1a',
+        primary: '#fb732c',
+        primaryDeep: '#cc5c24',
+        primaryMild: '#fc8f56',
+        primarySubtle: '#fb732c1a',
         neutral: '#ffffff',
     },
 }
@@ -77,17 +77,17 @@ const purpleTheme: ThemeVariables = {
 
 const orangeTheme: ThemeVariables = {
     light: {
-        primary: '#fb732c',
-        primaryDeep: '#cc5c24',
-        primaryMild: '#fc8f56',
-        primarySubtle: '#fb732c1a',
+        primary: '#2a85ff',
+        primaryDeep: '#0069f6',
+        primaryMild: '#4996ff',
+        primarySubtle: '#2a85ff1a',
         neutral: '#ffffff',
     },
     dark: {
-        primary: '#fb732c',
-        primaryDeep: '#cc5c24',
-        primaryMild: '#fc8f56',
-        primarySubtle: '#fb732c1a',
+        primary: '#2a85ff',
+        primaryDeep: '#0069f6',
+        primaryMild: '#4996ff',
+        primarySubtle: '#2a85ff1a',
         neutral: '#ffffff',
     },
 }
