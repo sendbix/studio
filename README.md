@@ -23,3 +23,10 @@
 ```bash
 git clone https://github.com/sendbix/studio.git
 cd studio
+```
+
+### 1. How to database Setup
+
+```base
+npx prisma migrate dev
+```
